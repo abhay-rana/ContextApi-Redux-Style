@@ -1,0 +1,19 @@
+.main_navs {
+	display: flex;
+	justify-content: space-between;
+	border: 2px solid black;
+	/* text-decoration: none; */
+}
+
+.button {
+	border: 1px solid blue;
+	border-radius: 15px;
+	width: 50px;
+	text-decoration: none;
+	color: black;
+}
+
+.button:hover {
+	background-color: burlywood;
+	cursor: pointer;
+}
