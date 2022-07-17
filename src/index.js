@@ -1,12 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
-import StoreProvider from "./context";
+import StoreProvider, { ThemeProvider } from "./context/index";
+import MemoComponent from "./MemoComponent";
 
 ReactDOM.render(
 	<>
 		<StoreProvider>
-			<App />
+			<ThemeProvider>
+				<App />
+				<MemoComponent />
+			</ThemeProvider>
 		</StoreProvider>
 	</>,
 	document.getElementById("root")

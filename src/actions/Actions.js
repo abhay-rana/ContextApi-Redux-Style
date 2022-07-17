@@ -12,3 +12,5 @@ export const SetDetails = (dispatch, name) =>
 		type: "SETNAME",
 		data: name,
 	});
+
+export const ChangeName = (dispatch) => dispatch({ type: "CHANGE_NAME", data: "abhay rana" });

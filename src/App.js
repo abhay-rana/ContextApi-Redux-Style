@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import { store } from "./context";
-import { IncreaseAction, GetDetails, DecreaseFunction } from "./Actions";
+import { IncreaseAction, GetDetails, DecreaseFunction } from "./actions/Actions";
 
 const App = () => {
 	const { state, dispatch } = useContext(store);

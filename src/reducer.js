@@ -26,5 +26,9 @@ export function reducer(state = initialState, action) {
 		console.log(newState);
 		return newState;
 	}
+	if (action.type == "CHANGE_NAME") {
+		newState.name = action.data;
+		return newState;
+	}
 	return state;
 }
