@@ -1,8 +1,9 @@
 ## React ContextApi-> multiple store, prevent re-renderings, good code structure
 
-Action,View,Reducers,
+View,Action,Reducers,
 multiple context,
-performance optimizations by the unnecessary
+performance optimizations by the unnecessary re-rendeings by memoization
+
 
 * created multiple context one is store_context and another one is theme_context
 * so by making the multiple context it will help in performance by less re-renderings
