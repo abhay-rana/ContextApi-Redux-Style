@@ -1,7 +1,9 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import StoreProvider from "./providers/store-provider";
+import ThemeProvider from "./providers/theme-provider";
+
 import App from "./App";
-import StoreProvider, { ThemeProvider } from "./context/index";
 import MemoComponent from "./MemoComponent";
 
 ReactDOM.render(
