@@ -14,3 +14,4 @@ performance optimizations by the unnecessary re-rendeings by memoization
 * we are memoize the jsx part also by the useMemo hook for the saving from unnecessary re-renderings
 * no use of memoize the component as the props are not changing useContext fire and component re-renders it can be stop by the memo the return part of the component
 * we have memoized the component because we are only changing the state by dispatch and not using the updated state in the component and we dont wanted the render part run for that component
+* theme provider and a store provider
